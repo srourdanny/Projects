@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module functions</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">functions</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:d%3A%5Cpythonprograms%5Cweeks7-11%5Cfinal%5Cfunctions%5Cfunctions.py">d:\pythonprograms\weeks7-11\final\functions\functions.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="json.html">json</a><br>
+</td><td class="multicolumn"><a href="os.html">os</a><br>
+</td><td class="multicolumn"><a href="shutil.html">shutil</a><br>
+</td><td class="multicolumn"><a href="time.html">time</a><br>
+</td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-addData"><strong>addData</strong></a>(my_db)</dt><dd><span class="code">Add&nbsp;a&nbsp;new&nbsp;first&nbsp;name&nbsp;to&nbsp;the&nbsp;database</span></dd></dl>
+ <dl><dt><a name="-choosingDatabase"><strong>choosingDatabase</strong></a>()</dt><dd><span class="code">Initialize&nbsp;a&nbsp;flag&nbsp;to&nbsp;check&nbsp;for&nbsp;table&nbsp;validity.</span></dd></dl>
+ <dl><dt><a name="-crmDataDelete"><strong>crmDataDelete</strong></a>(my_db, userChoice)</dt><dd><span class="code">Deletes&nbsp;data&nbsp;from&nbsp;the&nbsp;table&nbsp;chosen</span></dd></dl>
+ <dl><dt><a name="-crmDataEdit"><strong>crmDataEdit</strong></a>(my_db, userChoice)</dt><dd><span class="code">Edits&nbsp;a&nbsp;specific&nbsp;record&nbsp;in&nbsp;the&nbsp;'crm_data'&nbsp;table&nbsp;based&nbsp;on&nbsp;user&nbsp;input.</span></dd></dl>
+ <dl><dt><a name="-deleteData"><strong>deleteData</strong></a>(my_db)</dt><dd><span class="code">Deletes&nbsp;data&nbsp;in&nbsp;either&nbsp;the&nbsp;'crm_data'&nbsp;or&nbsp;'mailings'&nbsp;table&nbsp;based&nbsp;on&nbsp;user&nbsp;input.</span></dd></dl>
+ <dl><dt><a name="-editData"><strong>editData</strong></a>(my_db)</dt><dd><span class="code">Edits&nbsp;data&nbsp;in&nbsp;either&nbsp;the&nbsp;'crm_data'&nbsp;or&nbsp;'mailings'&nbsp;table&nbsp;based&nbsp;on&nbsp;user&nbsp;input.</span></dd></dl>
+ <dl><dt><a name="-existenceCheck"><strong>existenceCheck</strong></a>(title)</dt><dd><span class="code">Checks&nbsp;if&nbsp;the&nbsp;input&nbsp;is&nbsp;blank&nbsp;or&nbsp;not.</span></dd></dl>
+ <dl><dt><a name="-exportCSV"><strong>exportCSV</strong></a>(dataList)</dt><dd><span class="code">Open&nbsp;a&nbsp;CSV&nbsp;file&nbsp;for&nbsp;writing.</span></dd></dl>
+ <dl><dt><a name="-exportJSON"><strong>exportJSON</strong></a>(dataList)</dt><dd><span class="code">Open&nbsp;a&nbsp;JSON&nbsp;file&nbsp;for&nbsp;writing.</span></dd></dl>
+ <dl><dt><a name="-importingData"><strong>importingData</strong></a>(my_db)</dt><dd><span class="code">Prompt&nbsp;user&nbsp;for&nbsp;the&nbsp;location&nbsp;of&nbsp;the&nbsp;data&nbsp;import&nbsp;file.</span></dd></dl>
+ <dl><dt><a name="-isAddressValid"><strong>isAddressValid</strong></a>(address)</dt><dd><span class="code">Iterate&nbsp;through&nbsp;each&nbsp;character&nbsp;in&nbsp;the&nbsp;address&nbsp;string.</span></dd></dl>
+ <dl><dt><a name="-isCityValid"><strong>isCityValid</strong></a>(city)</dt><dd><span class="code">Iterate&nbsp;through&nbsp;each&nbsp;character&nbsp;in&nbsp;the&nbsp;city&nbsp;string.</span></dd></dl>
+ <dl><dt><a name="-isCompanyValid"><strong>isCompanyValid</strong></a>(company)</dt><dd><span class="code">Iterate&nbsp;through&nbsp;each&nbsp;character&nbsp;in&nbsp;the&nbsp;company&nbsp;string.</span></dd></dl>
+ <dl><dt><a name="-isEmailValid"><strong>isEmailValid</strong></a>(email)</dt><dd><span class="code">Iterate&nbsp;through&nbsp;each&nbsp;character&nbsp;in&nbsp;the&nbsp;email&nbsp;string.</span></dd></dl>
+ <dl><dt><a name="-isNameValid"><strong>isNameValid</strong></a>(name)</dt><dd><span class="code">Iterate&nbsp;through&nbsp;each&nbsp;character&nbsp;in&nbsp;the&nbsp;name&nbsp;string.</span></dd></dl>
+ <dl><dt><a name="-isNumberValid"><strong>isNumberValid</strong></a>(number)</dt><dd><span class="code">Check&nbsp;if&nbsp;the&nbsp;input&nbsp;string&nbsp;is&nbsp;an&nbsp;integer</span></dd></dl>
+ <dl><dt><a name="-isPhoneValid"><strong>isPhoneValid</strong></a>(phone)</dt><dd><span class="code">Check&nbsp;if&nbsp;the&nbsp;phone&nbsp;number&nbsp;is&nbsp;empty.</span></dd></dl>
+ <dl><dt><a name="-isStateValid"><strong>isStateValid</strong></a>(state)</dt><dd><span class="code">Check&nbsp;if&nbsp;the&nbsp;entered&nbsp;state&nbsp;abbreviation&nbsp;is&nbsp;valid&nbsp;by&nbsp;converting&nbsp;it&nbsp;to&nbsp;uppercase&nbsp;and&nbsp;comparing&nbsp;it&nbsp;to&nbsp;a&nbsp;list&nbsp;of&nbsp;valid&nbsp;state&nbsp;abbreviations.</span></dd></dl>
+ <dl><dt><a name="-isZipCodeValid"><strong>isZipCodeValid</strong></a>(zip)</dt><dd><span class="code">Check&nbsp;if&nbsp;the&nbsp;entered&nbsp;zip&nbsp;code&nbsp;is&nbsp;valid&nbsp;by&nbsp;checking&nbsp;if&nbsp;it&nbsp;is&nbsp;a&nbsp;digit&nbsp;and&nbsp;its&nbsp;length.</span></dd></dl>
+ <dl><dt><a name="-jsonFilter"><strong>jsonFilter</strong></a>(dataList)</dt><dd><span class="code">Initialize&nbsp;an&nbsp;empty&nbsp;list&nbsp;to&nbsp;store&nbsp;the&nbsp;filtered&nbsp;data.</span></dd></dl>
+ <dl><dt><a name="-mailingsDelete"><strong>mailingsDelete</strong></a>(my_db, userChoice)</dt><dd><span class="code">Deletes&nbsp;data&nbsp;from&nbsp;the&nbsp;table&nbsp;chosen</span></dd></dl>
+ <dl><dt><a name="-mailingsEdit"><strong>mailingsEdit</strong></a>(my_db, userChoice)</dt><dd><span class="code">Edits&nbsp;a&nbsp;specific&nbsp;record&nbsp;in&nbsp;the&nbsp;'mailings'&nbsp;table&nbsp;based&nbsp;on&nbsp;user&nbsp;input.</span></dd></dl>
+ <dl><dt><a name="-sanitizeInput"><strong>sanitizeInput</strong></a>(input)</dt><dd><span class="code">Sanitizes&nbsp;user&nbsp;input&nbsp;to&nbsp;escape&nbsp;special&nbsp;characters&nbsp;for&nbsp;SQL&nbsp;queries.</span></dd></dl>
+ <dl><dt><a name="-showData"><strong>showData</strong></a>(my_db)</dt><dd><span class="code">Initialize&nbsp;a&nbsp;flag&nbsp;for&nbsp;valid&nbsp;database&nbsp;option&nbsp;selection.</span></dd></dl>
+</td></tr></table>
+</body></html>
